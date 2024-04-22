@@ -1,0 +1,100 @@
+ @import url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+ @import url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Figtree, Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F4D04E;
+}
+
+main {
+    background-color: #fff ;
+    display: flex;
+    flex-direction: column;
+    max-width: 384px;
+    max-height: 522px;
+    padding: 24px 24px;
+    gap: 24px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: black 8px 8px;
+}
+
+.BlogImage {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.imageBlog {
+    max-width: 336px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.Content {
+    max-width: 336px;
+    max-height: 194px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0;
+}
+
+.Content__category {
+    background-color: #F4D04E;
+    width: fit-content;
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+h2 {
+    font-size: 14px;
+    font-size: bold;
+}
+
+.Content_publishdate {
+    font-size: 14px;
+    font-weight: 150;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: 150;
+    cursor: pointer;
+}
+
+h1:hover {
+    color:#F4D04E;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 150;
+    color: #7F7F7F;
+}
+
+.Author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.Author img {
+    max-width: 32px;
+}
+
+.Author span {
+    font-size: 14px;
+    font-weight: bold;
+}
